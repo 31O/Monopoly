@@ -1,5 +1,4 @@
 import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -79,91 +78,91 @@ public class Monopoly {
                             }
                             switch (propertyToSell) {
                                 case "mediterranean avenue":
-                                    propertySeller(propertySellPosition, j, mediterraneanAveOwnership, propertyHouses);
+                                    mediterraneanAveOwnership = propertySeller(propertySellPosition, j, mediterraneanAveOwnership, propertyHouses);
                                     playerMoney[j] += 30;
                                     break;
                                 case "baltic avenue":
-                                    propertySeller(propertySellPosition, j, balticAveOwnership, propertyHouses);
+                                    balticAveOwnership = propertySeller(propertySellPosition, j, balticAveOwnership, propertyHouses);
                                     playerMoney[j] += 30;
                                     break;
                                 case "Oriental Avenue":
-                                    propertySeller(propertySellPosition, j, orientalAveOwnership, propertyHouses);
+                                    orientalAveOwnership = propertySeller(propertySellPosition, j, orientalAveOwnership, propertyHouses);
                                     playerMoney[j] += 50;
                                     break;
                                 case "vermont avenue":
-                                    propertySeller(propertySellPosition, j, vermontAveOwnership, propertyHouses);
+                                    vermontAveOwnership = propertySeller(propertySellPosition, j, vermontAveOwnership, propertyHouses);
                                     playerMoney[j] += 50;
                                     break;
                                 case "connecticut avenue":
-                                    propertySeller(propertySellPosition, j, connecticutAveOwnership, propertyHouses);
+                                   connecticutAveOwnership =  propertySeller(propertySellPosition, j, connecticutAveOwnership, propertyHouses);
                                     playerMoney[j] += 70;
                                     break;
                                 case "st charles place":
-                                    propertySeller(propertySellPosition, j, stCharlesOwnership, propertyHouses);
+                                    stCharlesOwnership = propertySeller(propertySellPosition, j, stCharlesOwnership, propertyHouses);
                                     playerMoney[j] += 70;
                                     break;
                                 case "states avenue":
-                                    propertySeller(propertySellPosition, j, statesAveOwnership, propertyHouses);
+                                   statesAveOwnership = propertySeller(propertySellPosition, j, statesAveOwnership, propertyHouses);
                                     playerMoney[j] += 90;
                                     break;
                                 case "virginia avenue":
-                                    propertySeller(propertySellPosition, j, virginiaAveOwnership, propertyHouses);
+                                    virginiaAveOwnership = propertySeller(propertySellPosition, j, virginiaAveOwnership, propertyHouses);
                                     playerMoney[j] += 90;
                                     break;
                                 case "st james place":
-                                    propertySeller(propertySellPosition, j, stJamesAveOwnership, propertyHouses);
+                                    stJamesAveOwnership = propertySeller(propertySellPosition, j, stJamesAveOwnership, propertyHouses);
                                     playerMoney[j] += 110;
                                     break;
                                 case "tennessee avenue":
-                                    propertySeller(propertySellPosition, j, tennesseeAveOwnership, propertyHouses);
+                                    tennesseeAveOwnership = propertySeller(propertySellPosition, j, tennesseeAveOwnership, propertyHouses);
                                     playerMoney[j] += 110;
                                     break;
                                 case "new york avenue":
-                                    propertySeller(propertySellPosition, j, newYorkAveOwnership, propertyHouses);
+                                   newYorkAveOwnership = propertySeller(propertySellPosition, j, newYorkAveOwnership, propertyHouses);
                                     playerMoney[j] += 130;
                                     break;
                                 case "kentucky avenue":
-                                    propertySeller(propertySellPosition, j, kentuckyAveOwnership, propertyHouses);
+                                   kentuckyAveOwnership = propertySeller(propertySellPosition, j, kentuckyAveOwnership, propertyHouses);
                                     playerMoney[j] += 130;
                                     break;
                                 case "indiana avenue":
-                                    propertySeller(propertySellPosition, j, indianaAveOwnership, propertyHouses);
+                                   indianaAveOwnership = propertySeller(propertySellPosition, j, indianaAveOwnership, propertyHouses);
                                     playerMoney[j] += 150;
                                     break;
                                 case "illinois avenue":
-                                    propertySeller(propertySellPosition, j, illinoisAveOwnership, propertyHouses);
+                                   illinoisAveOwnership = propertySeller(propertySellPosition, j, illinoisAveOwnership, propertyHouses);
                                     playerMoney[j] += 150;
                                     break;
                                 case "atlantic avenue":
-                                    propertySeller(propertySellPosition, j, atlanticAveOwnership, propertyHouses);
+                                    atlanticAveOwnership = propertySeller(propertySellPosition, j, atlanticAveOwnership, propertyHouses);
                                     playerMoney[j] += 170;
                                     break;
                                 case "ventnor avenue":
-                                    propertySeller(propertySellPosition, j, ventnorAveOwnership, propertyHouses);
+                                    ventnorAveOwnership = propertySeller(propertySellPosition, j, ventnorAveOwnership, propertyHouses);
                                     playerMoney[j] += 170;
                                     break;
                                 case "marvin gardens":
-                                    propertySeller(propertySellPosition, j, marvinGardensOwnership, propertyHouses);
+                                  marvinGardensOwnership =  propertySeller(propertySellPosition, j, marvinGardensOwnership, propertyHouses);
                                     playerMoney[j] += 190;
                                     break;
                                 case "pacific avenue":
-                                    propertySeller(propertySellPosition, j, pacificAveOwnership, propertyHouses);
+                                   pacificAveOwnership = propertySeller(propertySellPosition, j, pacificAveOwnership, propertyHouses);
                                     playerMoney[j] += 190;
                                     break;
                                 case "north carolina avenue":
-                                    propertySeller(propertySellPosition, j, northCarolinaAveOwnership, propertyHouses);
+                                   northCarolinaAveOwnership = propertySeller(propertySellPosition, j, northCarolinaAveOwnership, propertyHouses);
                                     playerMoney[j] += 210;
                                     break;
                                 case "pennsylvania avenue":
-                                    propertySeller(propertySellPosition, j, pennsylvaniaAveOwnership, propertyHouses);
+                                  pennsylvaniaAveOwnership = propertySeller(propertySellPosition, j, pennsylvaniaAveOwnership, propertyHouses);
                                     playerMoney[j] += 210;
                                     break;
                                 case "park place":
-                                    propertySeller(propertySellPosition, j, parkPlaceOwnership, propertyHouses);
+                                   parkPlaceOwnership = propertySeller(propertySellPosition, j, parkPlaceOwnership, propertyHouses);
                                     playerMoney[j] += 230;
                                     break;
                                 case "boardwalk":
-                                    propertySeller(propertySellPosition, j, boardWalkOwnership, propertyHouses);
+                                   boardWalkOwnership = propertySeller(propertySellPosition, j, boardWalkOwnership, propertyHouses);
                                     playerMoney[j] += 230;
                                     break;
                                 default:
@@ -614,7 +613,7 @@ public class Monopoly {
                                 !inJailStatus[j]) {        // allows the player to roll the dice after typing a command
                             playerPosition[j] += dicesRoll;
 
-                            if (playerPosition[j] > 40) {
+                            if (playerPosition[j] > 40) {  //resets the position back to 0 after he passes 40 and gets $200 as reward
                                 playerPosition[j] -= 40;
                                 playerMoney[j] += 200;
                             }
